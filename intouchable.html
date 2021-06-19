@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/french.css">
+</head>
+<body>
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="sidebar">
+        <header>Contenu </header>
+        <ul>
+            <li><a href="#"><span>1</span> Mon Meilleur Ami</a></li>
+            <li><a href="#"><span>2</span> Mon Ville Natale</a></li>
+            <li><a href="#"><span>3</span> Raisons Pour Apprendre Le Français</a></li>
+            <li><a href="index.html"><span>4</span> Les 29 Pays Qui Parlent Francais</a></li>
+            <li><a href="#"><span>5</span> La Ville Nantes De France</a></li>
+            <li><a href="#"><span>6</span> Une Célèbre en France</a></li>
+            <li><a href="#"><span>7</span> Les Nombres De 0 à 100 en Lettre </a></li>
+            <li><a href="intouchable.html"><span>8</span> La Film "Intouchable"</a></li>
+        </ul>
+    </div>
+    <div id="intouchable">
+    <div class="swiper-container mySwiper swiper-container-intouchable ">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide swiper-slide-intouchable ">
+            <img class="intouchable" src="img/french/intouchable/Intouchable6.jpg" />
+          </div>
+          <div class="swiper-slide swiper-slide-intouchable">
+            <img class="intouchable" src="img/french/intouchable/Intouchables.jpg" />
+          </div>
+          <div class="swiper-slide swiper-slide-intouchable">
+            <img class="intouchable" src="img/french/intouchable/Intouchables2.jpg" />
+          </div>
+          <div class="swiper-slide swiper-slide-intouchable">
+            <img class="intouchable" src="img/french/intouchable/intouchable3.jpg" />
+          </div>
+          <div class="swiper-slide swiper-slide-intouchable">
+            <img class="intouchable" src="img/french/intouchable/intouchable4.jpg" />
+          </div>
+          <div class="swiper-slide swiper-slide-intouchable">
+            <img class="intouchable" src="img/french/intouchable/intouchables5.jpg" />
+          </div>
+          <div class="swiper-slide swiper-slide-intouchable">
+            <img class="intouchable" src="img/french/intouchable/intouchables7.jpg" />
+          </div>
+        </div>
+        </div>
+<div class="review">
+  <div class="header">
+    The Intouchables
+  </div>
+  <div class="review-description">
+    <h2>
+      Un riche employeur étouffant trouve sa vie enrichie par un sage noir des ghettos parisiens et prend des cours de musique funky et des joies de la marijuana. C'est une histoire qui a été racontée maintes et maintes fois dans les films, et parfois les performances dépassent la condescendance de la formule. 
+      Philippe (François Cluzet) est un millionnaire qui a été paralysé du cou aux pieds dans un accident de parapente. Driss (Omar Sy) est un homme en liberté conditionnelle pour vol, qui postule pour le poste d'aide-soignant de Philippe uniquement afin qu'il puisse être rejeté et obtenir une signature sur sa demande d'allocations de chômage. Alors que Philippe interviewe un candidat à un emploi ennuyeux après l'autre, nous commençons à comprendre qu'il a besoin non seulement d'une aide physique, mais aussi de quelqu'un pour lui remonter le moral. L'irrévérence effrontée de Driss est rafraîchissante, et Philippe l'étonne lui et son propre personnel de maison en lui offrant le travail. 
+      Le film raconte l'histoire d'une relation croissante entre ces deux hommes sympathiques, basée sur la confiance de Driss que Philippe s'améliorera s'il échappe à son style de vie coincé et goûte aux plus grandes libertés d'un immigrant d'Afrique. Il y a peut-être une certaine vérité là-dedans, mais l'éducation de Philippe procède d'une série de clichés essentiellement insultants. Driss, voyez-vous, a du rythme et de l'âme, et si seulement Philippe peut en absorber une partie, il sera un homme plus heureux. Il sera toujours un millionnaire français entouré d'un staff protecteur, il sera toujours paralysé, mais il sera plus heureux. Combien de fois avons-nous vu la scène où un carré tendu inhale un pot pour la première fois et un sourire se répand lentement sur son visage ? 
+      
+"The Intouchables" a un élément de vérité qu'il ne reconnaît jamais tout à fait. Le rôle d'un bon soignant ne se limite pas à soulever, prendre un bain, se toiletter, s'habiller, pousser et fournir des médicaments. Le patient est confronté à une réalité qu'il a du mal à accepter : il a été privé de tout ce qu'il tenait autrefois pour acquis, comme la simple capacité de traverser une pièce. Un soignant ne peut pas fournir cela, mais il peut fournir quelque chose de plus précieux, de la compagnie. La femme de Philippe est décédée, sa fille adolescente est une morveuse et son personnel est préoccupé par leurs salaires et leur statut. Driss vient d'un autre monde. 
+    </h2>
+  </div>
+</div>
+</div>
+       
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 10,
+        effect: "fade",
+          loop: true,
+          autoplay: {
+          delay: 3000,
+          disableOnInteraction: true,
+        }
+   
+        });
+      </script>
+</body>
+</html>
